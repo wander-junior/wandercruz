@@ -1,5 +1,9 @@
+import { Header } from "@/components/modules/Header/Header";
+
 export default function Home() {
   return (
-    <h1>Welcome to my blog</h1>
+    <>
+      <Header />
+    </>
   )
 }
