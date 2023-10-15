@@ -23,8 +23,7 @@ export function Header() {
         </nav>
         <div className="navbar-end gap-4">
           <button className="btn"><SunIcon className="h-4 w-4" /></button>
-          <select className="select select-bordered">
-            <option disabled selected>Language</option>
+          <select className="select select-bordered" defaultValue="English">
             <option>Português</option>
             <option>English</option>
           </select>

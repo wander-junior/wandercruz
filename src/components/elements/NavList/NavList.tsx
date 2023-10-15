@@ -1,16 +1,16 @@
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
-import { HeaderItem } from "../HeaderItem/HeaderItem";
+import { NavItem } from "../NavItem/NavItem";
 
 export function NavList() {
     return (
         <>
-            <HeaderItem isHome>Home</HeaderItem>
-            <HeaderItem>About</HeaderItem>
-            <HeaderItem>Blog</HeaderItem>
-            <HeaderItem>Projects</HeaderItem>
-            <HeaderItem>
+            <NavItem isHome>Home</NavItem>
+            <NavItem>About</NavItem>
+            <NavItem>Blog</NavItem>
+            <NavItem>Projects</NavItem>
+            <NavItem>
                 Github <ArrowTopRightOnSquareIcon className="h-4 w-4" />
-            </HeaderItem>
+            </NavItem>
         </>
     )
 }

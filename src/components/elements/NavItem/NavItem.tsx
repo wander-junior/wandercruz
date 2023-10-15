@@ -1,11 +1,11 @@
 import React, { ReactNode } from "react";
 
-interface HeaderItemProps {
+interface NavItemProps {
     children: React.ReactNode
     isHome?: boolean
 }
 
-export function HeaderItem({ children, isHome }: HeaderItemProps) {
+export function NavItem({ children, isHome }: NavItemProps) {
     const homeClasses = isHome ? 'sm:hidden' : ''
 
     return (
