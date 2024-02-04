@@ -1,5 +1,6 @@
 import { NavList } from "@/components/elements/NavList/NavList";
-import { SunIcon, Bars3Icon } from "@heroicons/react/20/solid";
+import { ThemeButton } from "@/components/elements/ThemeButton/ThemeButton";
+import { Bars3Icon } from "@heroicons/react/20/solid";
 
 export function Header() {
   return (
@@ -22,7 +23,7 @@ export function Header() {
           </ul>
         </nav>
         <div className="navbar-end gap-4">
-          <button className="btn"><SunIcon className="h-4 w-4" /></button>
+          <ThemeButton />
           <select className="select select-bordered" defaultValue="English">
             <option>Português</option>
             <option>English</option>

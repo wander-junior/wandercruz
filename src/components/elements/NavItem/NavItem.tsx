@@ -1,7 +1,7 @@
-import React, { ReactNode } from "react";
+import { type ReactNode } from "react";
 
 interface NavItemProps {
-    children: React.ReactNode
+    children: ReactNode
     isHome?: boolean
 }
 

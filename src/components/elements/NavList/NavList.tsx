@@ -2,6 +2,7 @@ import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
 import { NavItem } from "../NavItem/NavItem";
 
 export function NavList() {
+
     return (
         <>
             <NavItem isHome>Home</NavItem>
